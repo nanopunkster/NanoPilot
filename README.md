@@ -2,15 +2,17 @@
 
 Readme · MD
 Nano Pilot
-<img width="1280" height="640" alt="nano-pilot-github-1280x640" src="https://github.com/user-attachments/assets/8ec80c32-7e36-4784-a5c4-6d1b9e156849" />
+<img width="1280" height="640" alt="nano-pilot-github-1280x640" src="https://github.com/user-attachments/assets/5e2f9f50-ec05-4df9-9c12-881f79a4ab7a" />
+
 
 Fact-checked reply drafts under every post on X. A Chrome / Brave extension with a terminal look. Pick a style and a tone, and get 3 replies with source links. You still click Reply yourself.
 
 Made by @nanovisuals. Free to use under the MIT licence.
 
+<img width="2560" height="1280" alt="nano-pilot-hd" src="https://github.com/user-attachments/assets/94581ec4-3b30-41ee-befd-98a9089d4c62" />
 
 Features
-5 styles	ROAST, AGREE, LOVE, TECHNICAL, and WRITE (your own keywords)
+4 styles + WRITE	ROAST, LOVE, SMART, ASK. Each has one job. Plus WRITE for your own keywords
 6 tones	Dry, Shitpost, Hype, Savage, Chill, Builder
 Fact-check toggle	Searches the web first and shows source links
 Not-verified warning	Red warning if fact-check was on but no sources were found
@@ -41,21 +43,25 @@ Show Image
 
 Set the fact-check toggle and pick a tone.
 Optional: type keywords in the > box.
-Click ROAST, AGREE, LOVE, TECHNICAL, or WRITE.
+Click ROAST, LOVE, SMART, ASK, or WRITE.
 Check the source chips under the replies.
 Click use. It opens the reply box and fills it. Read it, then click Reply.
 Fact-check toggle
 Button	Meaning
 [■] fact-check (glowing)	ON: searches the web, shows sources
 [ ] fact-check	OFF: no search, fast and cheap
-[~] fact-check	Auto: ROAST and LOVE off, AGREE / TECHNICAL / WRITE on. One click turns it ON
+[~] fact-check	Auto: only SMART and WRITE fact-check. One click turns it ON
 Styles
-Style	What it writes
-ROAST	Witty, sharp take on the idea. Never attacks identity
-AGREE	Agrees and adds a real fact, example or next step
-LOVE	Genuine love for the post. Names what's great and celebrates it
-TECHNICAL	How it actually works: mechanism, number, tradeoff or correction
-WRITE	Built around the keywords you type
+Each button has one job: what the reply does to the reader.
+
+Style	Job	What it writes	Fact-check (auto)
+ROAST	Make them laugh	Witty, sharp take on the idea. Never attacks identity	off
+LOVE	Make them feel good	Genuine love. Names what's great and celebrates it	off
+SMART	Make them learn	One real insight: fact, stat, mechanism or correction	on
+ASK	Make them reply	One sharp question the author wants to answer	off
+WRITE	Your angle	Built around the keywords you type	on
+Tones sit on top: LOVE + Hype, ROAST + Shitpost, SMART + Builder.
+
 Add your own style in config.js. The bar grid resizes itself, so it stays symmetric.
 
 What the footer tells you
@@ -135,5 +141,3 @@ Made by Nano (@nanovisuals).
 Licence: MIT. Free to use, change and share. Keep the credit.
 See CHANGELOG.md for version history.
 
-
-<img width="1280" height="640" alt="nano-pilot-github-1280x640" src="https://github.com/user-attachments/assets/32377595-8a65-46ea-8741-89d6b35ab343" />
